@@ -3,7 +3,7 @@ organization := "pl.japila.specs2"
 version      := "1.0"
 scalaVersion := "2.11.6"
 
-val specsVersion = "3.1"
+val specsVersion = "3.6"
 
 resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
 libraryDependencies += "org.specs2" %% "specs2-core"          % specsVersion % "test"
